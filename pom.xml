@@ -10,25 +10,17 @@
 	</parent>
 
 	<groupId>com.example</groupId>
-	<artifactId>my-spring-boot-project</artifactId>
+	<artifactId>my-custom-starter</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>my-spring-boot-project</name>
+	<name>my-custom-starter</name>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-autoconfigure</artifactId>
 		</dependency>
+		<!-- Add any other dependencies your starter requires -->
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 </project>
