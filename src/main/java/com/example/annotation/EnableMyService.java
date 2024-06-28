@@ -10,6 +10,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-@Import(MyServiceAutoConfiguration.class) // Import the autoconfiguration class
-public @interface EnableMyService {
+@Import(MyServiceAutoConfiguration.class)
+public @interface   EnableMyService {
 }
