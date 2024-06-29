@@ -11,5 +11,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 @Import(MyServiceAutoConfiguration.class)
-public @interface   EnableMyService {
+public @interface EnableMyService {
 }
